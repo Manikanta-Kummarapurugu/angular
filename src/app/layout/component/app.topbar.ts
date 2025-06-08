@@ -23,9 +23,6 @@ import { ButtonModule } from 'primeng/button';
                                 <i [ngClass]="{ 'pi ': true, 'pi-moon': layoutService.isDarkTheme(), 'pi-sun': !layoutService.isDarkTheme() }"></i>
                             </p-button>
                         </div>
-                        <!-- <p-button outlined="true"  class="layout-topbar-menu-button layout-topbar-action" pStyleClass="@next" enterFromClass="hidden" enterActiveClass="animate-scalein" leaveToClass="hidden" leaveActiveClass="animate-fadeout" [hideOnOutsideClick]="true">
-                            <i class="pi pi-ellipsis-v"></i>
-                        </p-button> -->
                         <p-button (click)="mobileMenuVisible = !mobileMenuVisible"   class="layout-topbar-menu-button layout-topbar-action lg:hidden"
 >
                             <i class="pi pi-ellipsis-v"></i>
