@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+@import './tailwind.css';
+@import '../public/assets/layout/layout.scss';
+@import 'primeicons/primeicons.css';
+@import '../public/assets/demo/demo.scss';
+
