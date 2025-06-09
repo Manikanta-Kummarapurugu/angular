@@ -3,4 +3,5 @@
 @import '../public/assets/layout/layout.scss';
 @import 'primeicons/primeicons.css';
 @import '../public/assets/demo/demo.scss';
+@import "tailwindcss";
 
